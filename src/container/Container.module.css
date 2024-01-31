@@ -1,0 +1,16 @@
+.container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: calc(100% - 320px);
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+}
